@@ -1,0 +1,46 @@
+{
+  "introSection": {
+    "block1": {
+      "intro-title": "intelligence is nothing without ambition",
+      "intro-subtitle": "We’re small but impressive creative agency."
+    }
+  },
+  "portfolioSection": {
+    "content": {
+      "portfolio_img": "static/img/portfolio/MacBook.png",
+      "portfolio_title": "portfolio",
+      "portfolio_subtitle": "We are small, but strong team",
+      "portfolio_description_1": "No more pricing grids. No more fine print. Sending and receiving cash is free without gimmicks.",
+      "portfolio_description_2": "The same debit card you use to buy coffee lets deposit money straight to your bank account."
+    }
+  },
+  "teamSection": {
+    "header": {
+      "teamHeder": {
+        "team__title": "our team",
+        "accent_dot": ".",
+        "team__subtitle": "They are big but still friendly."
+      }
+    },
+    "teamPersons": {
+      "person_1": {
+        "photo": "static/img/team/person-1.png",
+        "name": "Joey",
+        "position": "Web developer",
+        "aboutMe": "Coffee lover.  Always on bike. iPhone fan."
+      },
+      "person_2": {
+        "photo": "static/img/team/person-2.png",
+        "name": "Matt",
+        "position": "Web designer",
+        "aboutMe": "MTB Biker. Photoshop Master. Loving Father."
+      },
+      "person_3": {
+        "photo": "static/img/team/person-3.png",
+        "name": "Mike",
+        "position": "Copywriter",
+        "aboutMe": "Drummer. Soup lover. Beer Drinker. Cyclist."
+      }
+    }
+  }
+}
