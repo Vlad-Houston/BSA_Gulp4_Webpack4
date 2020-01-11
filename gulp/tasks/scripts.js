@@ -22,7 +22,6 @@ module.exports = function() {
     return $.gulp
       .src(["./dev/static/js/*.js", "!./dev/static/js/libs.min.js"])
       .pipe($.gulp.dest("./build/static/js/"))
-      .pipe($.gulpWebpack($.webpackConfig, $.webpack)) //del
       .pipe(
         $.browserSync.reload({
           stream: true
