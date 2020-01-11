@@ -2,8 +2,9 @@ const webpack = require("webpack");
 const UglifyJSPlugin = require("uglifyjs-webpack-plugin");
 
 const config = {
+  mode: "development",
   entry: {
-    about: "./dev/static/js/main.js"
+    main: "./dev/static/js/main.js"
   },
   output: {
     filename: "[name].bundle.js"

@@ -1,0 +1,643 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video
+{
+    font-size: 100%;
+
+    margin: 0;
+    padding: 0;
+
+    vertical-align: baseline;
+}
+a
+{
+    text-decoration: none;
+}
+a active,
+a:hover
+{
+    outline: 0;
+}
+html
+{
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+}
+textarea
+{
+    overflow: auto;
+
+    resize: none;
+    vertical-align: top;
+
+    -webkit-box-shadow: none;
+       -moz-box-shadow: none;
+            box-shadow: none;
+}
+table
+{
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+ul,
+li
+{
+    margin: 0;
+    padding: 0;
+
+    list-style-type: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6
+{
+    font-size: 100%;
+    font-weight: normal;
+}
+*,
+*:before,
+*:after
+{
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+}
+:focus
+{
+    outline: 0;
+}
+img,
+audio,
+video
+{
+    max-width: 100%;
+    height: auto;
+}
+audio,
+canvas,
+iframe,
+video,
+img,
+svg
+{
+    vertical-align: middle;
+}
+iframe
+{
+    border: 0;
+}
+input,
+textarea,
+select,
+button
+{
+    font-size: 100%;
+
+    margin: 0;
+
+    border: none;
+    outline: none;
+}
+button,
+input
+{
+    line-height: normal;
+}
+td,
+th
+{
+    padding: 0;
+
+    text-align: left;
+}
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700&display=swap');
+.accent-dot
+{
+    font-size: 26px;
+
+    color: #fa5c65;
+}
+.primary-title
+{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+
+    text-transform: uppercase;
+
+    color: #314a5b;
+}
+.description
+{
+    font: 400 15px/22px 'Open Sans', sans-serif;
+
+    color: #9aa0ab;
+}
+.fa-arrow-right
+{
+    font-size: 12px;
+
+    padding-left: 7px;
+}
+@media (min-width: 768px)
+{
+    .container
+    {
+        width: 740px;
+    }
+}
+@media (min-width: 992px)
+{
+    .container
+    {
+        width: 941px;
+    }
+}
+@media (min-width: 1200px)
+{
+    .container
+    {
+        width: 941px;
+    }
+}
+.header
+{
+    height: 74px;
+}
+.intro
+{
+    width: 100%;
+    min-height: 100vh;
+
+    background: url('../img/intro/intro.png') top center no-repeat;
+    background-size: cover;
+}
+.hero
+{
+    max-width: 510px;
+    height: 90vh;
+
+    color: #314a5b;
+}
+.hero .title,
+.hero .accent-dot
+{
+    font-size: 48px;
+}
+.hero .subtitle
+{
+    font-family: 'Open Sans', sans-serif;
+
+    margin: 16px 0 41px;
+}
+.info
+{
+    min-height: 312px;
+}
+.info .title
+{
+    font-size: 26px;
+
+    width: 215px;
+}
+.info .description
+{
+    max-width: 257px;
+    margin: 20px 0 29px;
+}
+.info .accent-dot
+{
+    line-height: 0;
+}
+.info__item:nth-child(1) .title
+{
+    width: 120px;
+}
+.info__item
+{
+    margin: 86px 0;
+}
+a.info__more-btn
+{
+    color: #fa5c65;
+}
+.portfolio
+{
+    margin-bottom: 58px;
+}
+.portfolio .portfolio__item
+{
+    margin-top: 40px;
+}
+.portfolio .title,
+.portfolio .accent-dot
+{
+    font-size: 40px;
+}
+.portfolio .subtitle
+{
+    font-size: 16px;
+
+    margin-top: 8px;
+}
+.portfolio .description
+{
+    max-width: 367px;
+    margin-top: 29px;
+}
+.portfolio .portfolio__button
+{
+    margin-top: 45px;
+}
+.team
+{
+    padding: 47px 0 62px;
+
+    border-bottom: 1px solid #e6eaed;
+}
+.person__list
+{
+    margin-bottom: 36px;
+}
+.person__list .title
+{
+    font-size: 22px;
+}
+.person__list .subtitle
+{
+    font-size: 14px;
+
+    margin: 9px 0 11px;
+
+    color: #fa5c65;
+}
+.person__list .about-me
+{
+    font-size: 14px;
+
+    width: 144px;
+}
+.team__title,
+.accent-dot
+{
+    font-size: 32px;
+}
+.team__subtitle
+{
+    font-size: 16px;
+
+    margin-top: 8px;
+
+    color: #9aa0ab;
+}
+.team__item
+{
+    margin-top: 40px;
+}
+.footer .flex-wrap
+{
+    min-height: 92px;
+}
+.footer .fab
+{
+    font-size: 20px;
+
+    color: #b9c0c6;
+}
+.footer .fab:hover
+{
+    -webkit-transition: ease-in-out .7s;
+         -o-transition: ease-in-out .7s;
+            transition: ease-in-out .7s;
+
+    color: #fa5c65;
+}
+.footer__list-icon
+{
+    width: 132px;
+}
+.footer__copyright
+{
+    font-size: 13px;
+
+    display: block;
+
+    max-width: 285px;
+}
+.brand-container
+{
+    width: 140px;
+    height: 74px;
+
+    text-align: center;
+
+    border-radius: 0 0 5px 5px;
+    background-color: #fa5c65;
+}
+.navbar-brand
+{
+    font-size: 20px;
+    font-weight: 700;
+
+    margin: 0;
+    padding-top: 43px;
+
+    letter-spacing: .3px;
+
+    color: #fff;
+}
+.navbar-brand:hover
+{
+    color: #fff;
+}
+.navbar-brand span
+{
+    color: #314a5b;
+}
+.header__menu-btn,
+.close-btn
+{
+    display: none;
+}
+.navbar-nav
+{
+    width: 453px;
+}
+.navbar__link
+{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+
+    text-transform: uppercase;
+
+    color: #263742;
+}
+.navbar__link:hover
+{
+    -webkit-transition: ease-in-out .5s;
+         -o-transition: ease-in-out .5s;
+            transition: ease-in-out .5s;
+    text-decoration: none;
+
+    color: #fa5c65;
+}
+.navbar__social
+{
+    width: 53px;
+}
+.navbar__social .fab
+{
+    font-size: 20px;
+
+    color: #fa5c65;
+}
+@media screen and (max-width: 768px)
+{
+    .overlay
+    {
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 0;
+
+        overflow-x: hidden;
+
+        width: 0;
+        height: 100%;
+
+        background-color: #000;
+        background-color: rgba(0,0,0,.9);
+    }
+    .overlay transition .5s a
+    {
+        font-size: 36px;
+
+        display: block;
+
+        padding: 8px;
+
+        -webkit-transition: .3s;
+             -o-transition: .3s;
+                transition: .3s;
+        text-decoration: none;
+
+        color: #818181;
+    }
+    .overlay-content
+    {
+        position: relative;
+        top: 25%;
+
+        width: 100%;
+        margin-top: 30px;
+
+        text-align: center;
+    }
+    .header__menu-btn,
+    .close-btn
+    {
+        display: block;
+    }
+    .overlay a:hover,
+    .overlay a:focus
+    {
+        color: #f1f1f1;
+    }
+    .navbar__item
+    {
+        margin-top: 20px;
+    }
+    nav .fas
+    {
+        font-size: 30px;
+
+        color: #263742;
+    }
+    nav .fa-times
+    {
+        color: #fff;
+    }
+    .navbar__link
+    {
+        color: #fff;
+    }
+    .navbar__social
+    {
+        margin: 20px auto 0;
+    }
+    .close-btn
+    {
+        margin: 20px;
+
+        text-align: right;
+    }
+}
+.intro__button
+{
+    font: 700 15px/64px 'Open Sans', sans-serif;
+
+    width: 171px;
+
+    text-transform: uppercase;
+
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    background-color: #fa5c65;
+}
+.intro__button:hover
+{
+    -webkit-transition: ease-in-out .7s;
+         -o-transition: ease-in-out .7s;
+            transition: ease-in-out .7s;
+
+    color: #fa5c65;
+    background-color: #fff;
+}
+.primary-btn
+{
+    font: 400 14px 'Montserrat', sans-serif;
+
+    padding: 0;
+
+    text-transform: uppercase;
+
+    color: #fa5c65;
+    outline: none;
+    background: none;
+}
+@media (max-width: 768px)
+{
+    .container
+    {
+        text-align: center;
+    }
+    .intro__button
+    {
+        margin: 0 auto;
+    }
+    .info__item:nth-child(1) .title,
+    .info__list .title
+    {
+        margin: auto;
+    }
+    .info__item
+    {
+        margin: 40px 0;
+    }
+    .info .description
+    {
+        margin: 10px auto 10px;
+    }
+    .person__list .about-me,
+    .description
+    {
+        margin: auto;
+    }
+    .person__item .title
+    {
+        margin-top: 15px;
+    }
+}
+@media (max-width: 480px)
+{
+    .hero .title
+    {
+        font-size: 32px;
+    }
+    .intro
+    {
+        background-position: left;
+    }
+    .portfolio__item:nth-child(1)
+    {
+        display: none;
+    }
+    .footer__list-icon
+    {
+        margin: auto;
+    }
+}

@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Саламатин Анатолий. FrontCoder",
+  "author": "Vlad Houston",
   "license": "ISC",
   "devDependencies": {
     "browser-sync": "^2.26.7",
@@ -33,10 +33,6 @@
     "webpack": "^4.41.5"
   },
   "dependencies": {
-    "animate.css": "^3.7.2",
-    "bootstrap": "^4.3.1",
-    "normalize.css": "^7.0.0",
-    "svg4everybody": "^2.1.8",
-    "wow.js": "^1.2.2"
+    "normalize.css": "^7.0.0"
   }
 }
