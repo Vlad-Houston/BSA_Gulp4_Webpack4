@@ -7,7 +7,7 @@ global.$ = {
   fs: require("fs"),
   gulpWebpack: require("gulp-webpack"),
   webpack: require("webpack"),
-
+  webpackConfig: require("./webpack.config.js"),
   browserSync: require("browser-sync").create(),
   gp: require("gulp-load-plugins")()
 };

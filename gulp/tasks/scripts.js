@@ -8,6 +8,7 @@ module.exports = function() {
     return $.gulp
       .src(libs)
       .pipe($.gp.concat("libs.min.js"))
+      .pipe($.gulpWebpack($.webpackConfig, $.webpack))
       .pipe($.gulp.dest("./build/static/js/"))
       .pipe(
         $.browserSync.reload({
@@ -25,7 +26,7 @@ module.exports = function() {
     return $.gulp
       .src(libs)
       .pipe($.gp.concat("libs.min.js"))
-      .pipe($.gp.uglifyjs())
+      .pipe($.gulpWebpack(webpackConfig, webpack))
       .pipe($.gulp.dest("./build/static/js/"));
   });
 
@@ -33,6 +34,7 @@ module.exports = function() {
     return $.gulp
       .src(["./dev/static/js/*.js", "!./dev/static/js/libs.min.js"])
       .pipe($.gulp.dest("./build/static/js/"))
+      .pipe($.gulpWebpack(webpackConfig, webpack)) //del
       .pipe(
         $.browserSync.reload({
           stream: true
